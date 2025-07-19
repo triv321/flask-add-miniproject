@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 5000
 
 # 6. Default command to run your app
-CMD ["python", "app/app.py"]
+CMD ["gunicorn","-b","0.0.0.0:5000", "app.app:app"]
