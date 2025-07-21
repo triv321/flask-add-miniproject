@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Calculator Backend"
+    return "I LOVE MY CUTU 😘"
 
 @app.route("/add", methods=["POST"])
 def add():
