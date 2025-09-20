@@ -12,5 +12,4 @@ docker compose up --build
 In another terminal, run:
 
 curl.exe -X POST http://localhost:5000/add -H "Content-Type: application/json" -d "{\"num1\":x,\"num2\":y}"
-# where x and y are real numbers
 
